@@ -1,0 +1,22 @@
+{
+  "name": "ip-region-aggregator",
+  "version": "1.0.0",
+  "description": "Aggregates IP addresses by region using China-specific IP data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "IP",
+    "region",
+    "aggregator",
+    "China"
+  ],
+  "author": "Jiayi Wu",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "fast-geoip": "^1.1.88",
+    "json2csv": "^6.0.0-alpha.2"
+  }
+}
